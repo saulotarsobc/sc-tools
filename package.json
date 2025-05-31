@@ -1,6 +1,6 @@
 {
-  "name": "sc-electron-vite",
-  "displayName": "SC - Electron Vite",
+  "name": "sc-tools",
+  "displayName": "SC - Tools",
   "description": "Electron with Vite boilerplate",
   "private": false,
   "version": "0.0.1",
@@ -59,11 +59,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/saulotarsobc/electron-with-vite"
+    "url": "https://github.com/saulotarsobc/sc-tools"
   },
   "build": {
-    "appId": "br.com.saulotarsobc.electron-with-vite",
-    "productName": "SC - Electron Vite",
+    "appId": "br.com.saulotarsobc.sc-tools",
+    "productName": "SC - Tools",
     "files": [
       "dist"
     ],

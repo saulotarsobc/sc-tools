@@ -11,7 +11,7 @@ let win: BrowserWindow;
 
 async function createWindow() {
   win = new BrowserWindow({
-    title: `SC - Electron Vite - v0.0.1`,
+    title: `SC - Tools - v0.0.1`,
     width: 1024,
     height: 768,
     webPreferences: {
