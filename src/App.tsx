@@ -10,9 +10,19 @@ import JWTDebugger from "./pages/JWTDebugger";
 function App() {
   return (
     <Router>
-      <div className="App">
+      <div
+        className="App"
+        style={{ minHeight: "100vh", display: "flex", flexDirection: "column" }}
+      >
         <Header />
-        <main>
+        <main
+          style={{
+            flex: 1,
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+          }}
+        >
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/gerador-senhas" element={<GeradorSenhas />} />
