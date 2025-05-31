@@ -24,6 +24,7 @@ async function createWindow() {
 
   if (app.isPackaged) {
     win.loadFile(join(__dirname, "..", "..", "dist", "frontend", "index.html"));
+    win.setMenu(null);
   } else {
     win.loadURL("http://localhost:5173");
     win.webContents.openDevTools();
