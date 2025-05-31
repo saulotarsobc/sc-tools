@@ -1,0 +1,8 @@
+{
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit",
+    "source.removeUnusedImports": "explicit",
+    "source.addMissingImports.ts": "explicit"
+  },
+  "github.copilot.chat.localeOverride": "en"
+}
