@@ -254,56 +254,6 @@ export default function GeradorSenhas() {
           </div>
         </div>
       </div>
-      <section
-        style={{
-          fontSize: 16,
-          lineHeight: 1.7,
-          color: "#e0e0e0",
-          maxWidth: 700,
-          margin: "0 auto",
-          padding: "0 2px",
-        }}
-      >
-        <h2
-          style={{
-            fontSize: "1.5rem",
-            fontWeight: 700,
-            marginBottom: 12,
-            textAlign: "center",
-          }}
-        >
-          Por que é importante usar senhas fortes e únicas?
-        </h2>
-        <p>
-          Senhas são a primeira linha de defesa contra acessos não autorizados
-          às suas contas online. Uma senha forte dificulta ataques por força
-          bruta ou adivinhação.
-        </p>
-        <p>
-          Evite reutilizar senhas em diferentes serviços. Se um site for
-          comprometido, todas as contas que usam a mesma senha ficam em risco.
-        </p>
-        <h3 style={{ fontSize: "1.1rem", fontWeight: 600 }}>
-          Boas práticas para criar senhas seguras:
-        </h3>
-        <ul style={{ margin: 0, paddingLeft: 20 }}>
-          <li>Use pelo menos 12 caracteres.</li>
-          <li>Misture letras maiúsculas, minúsculas, números e símbolos.</li>
-          <li>Evite palavras óbvias ou sequências como "123456" ou "senha".</li>
-          <li>
-            Utilize um gerenciador de senhas para armazenar senhas longas e
-            únicas.
-          </li>
-          <li>
-            Considere usar autenticação em dois fatores (2FA) sempre que
-            possível.
-          </li>
-        </ul>
-        <p>
-          Geradores de senha, como o desta página, ajudam você a criar
-          combinações seguras e difíceis de serem descobertas.
-        </p>
-      </section>
     </main>
   );
 }
