@@ -1,4 +1,5 @@
 import { Route, HashRouter as Router, Routes } from "react-router-dom";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import "./components/Header.css";
 import Base64Page from "./pages/Base64Page";
@@ -19,6 +20,7 @@ function App() {
             <Route path="/jwt-debugger" element={<JWTDebugger />} />
           </Routes>
         </main>
+        <Footer />
       </div>
     </Router>
   );
